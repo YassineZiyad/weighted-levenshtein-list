@@ -19,7 +19,7 @@ setup(
     license='MIT',
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Cython',
         'Programming Language :: Python :: 2',
