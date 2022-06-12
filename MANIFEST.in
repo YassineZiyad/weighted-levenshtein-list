@@ -1,0 +1,5 @@
+include weighted_levenshtein_list/clev.pxd
+include weighted_levenshtein_list/clev.pyx
+include weighted_levenshtein_list/clev.c
+recursive-exclude test *
+

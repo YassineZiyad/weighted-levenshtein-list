@@ -1,0 +1,3 @@
+[run]
+source = weighted_levenshtein_list
+plugins = Cython.Coverage
