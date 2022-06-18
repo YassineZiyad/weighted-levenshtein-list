@@ -207,7 +207,7 @@ def damerau_levenshtein(
     free(intarr2)
     return result
 
-dam_lev = damerau_levenshtein
+damLev = damerau_levenshtein
 
 
 def damerau_levenshtein_list_between(list list_str1,list list_str2,
@@ -290,7 +290,7 @@ def damerau_levenshtein_list_between(list list_str1,list list_str2,
     free(indexList)
     free(diss)
 
-dam_lev_list_b = damerau_levenshtein_list_between
+damLevListB = damerau_levenshtein_list_between
 
 def damerau_levenshtein_list(list list_str1,list list_str2,
     DTYPE_t[::1] insert_costs=None,
@@ -370,7 +370,7 @@ def damerau_levenshtein_list(list list_str1,list list_str2,
     free(indexList)
     free(diss)
 
-dam_lev_list = damerau_levenshtein_list
+damLevList = damerau_levenshtein_list
 
 
 cdef DTYPE_t c_damerau_levenshtein_unicode(
@@ -605,7 +605,7 @@ def optimal_string_alignment_list_between(list list_str1,list list_str2,
     free(indexList)
     free(diss)
 
-osa_list_b = optimal_string_alignment_list_between
+osaListB = optimal_string_alignment_list_between
 
 
 def optimal_string_alignment_list(list list_str1,list list_str2,
@@ -686,7 +686,7 @@ def optimal_string_alignment_list(list list_str1,list list_str2,
     free(indexList)
     free(diss)
 
-osa_list = optimal_string_alignment_list
+osaList = optimal_string_alignment_list
 
 
 cdef DTYPE_t c_optimal_string_alignment_unicode(
@@ -871,7 +871,7 @@ def levenshtein_list(list list_str1,list list_str2,
     free(indexList)
     free(diss)
 
-lev_list = levenshtein_list
+levList = levenshtein_list
 
 
 def levenshtein_list_between(list list_str1,list list_str2,
@@ -948,7 +948,7 @@ def levenshtein_list_between(list list_str1,list list_str2,
     free(indexList)
     free(diss)
 
-lev_list_b = levenshtein_list_between
+levListB = levenshtein_list_between
 
 
 cdef DTYPE_t c_levenshtein_unicode(

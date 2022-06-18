@@ -29,9 +29,9 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Text Processing :: Linguistic',
     ],
-    keywords='Levenshtein Damerau weight weighted distance',
+    keywords='Levenshtein Damerau weight weighted distance list array',
     test_suite='test.test',
-    packages=find_packages(exclude=('test', 'docs',)),
+    packages=find_packages(exclude=('test')),
     package_data={
         'weighted_levenshtein_list': ['clev.pxd', 'clev.pyx'],
     },

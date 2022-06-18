@@ -1,5 +1,5 @@
 weighted-levenshtein-list
-====================
+
 
 Use Cases
 ---------
