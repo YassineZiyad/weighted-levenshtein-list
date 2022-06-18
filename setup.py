@@ -8,7 +8,7 @@ with open('README.rst') as readme:
 
 setup(
     name='weighted_levenshtein_list',
-    version='0.1.0',
+    version='0.1.2',
     description=(
         'Library providing functions to calculate Levenshtein distance, Optimal String Alignment distance, '
         'and Damerau-Levenshtein distance, where the cost of each operation can be weighted by letter.'

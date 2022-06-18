@@ -284,7 +284,7 @@ def damerau_levenshtein_list_between(list list_str1,list list_str2,
 
         free(intarr1)
 
-        yield list_str1[x] ,[[list_str2[indexList[z]],diss[z]] for z in range(0,kt)] 
+        yield list_str1[x] ,[[list_str2[indexList[z]],diss[z]] for z in range(0,kt)] ,kt
         kt=0
         
     free(indexList)
@@ -599,7 +599,7 @@ def optimal_string_alignment_list_between(list list_str1,list list_str2,
 
         free(intarr1)
 
-        yield list_str1[x] ,[[list_str2[indexList[z]],diss[z]] for z in range(0,kt)] 
+        yield list_str1[x] ,[[list_str2[indexList[z]],diss[z]] for z in range(0,kt)] ,kt
         kt=0
         
     free(indexList)
@@ -942,7 +942,7 @@ def levenshtein_list_between(list list_str1,list list_str2,
 
         free(intarr1)
 
-        yield list_str1[x] ,[[list_str2[indexList[z]],diss[z]] for z in range(0,kt)] 
+        yield list_str1[x] ,[[list_str2[indexList[z]],diss[z]] for z in range(0,kt)] ,kt
         kt=0
 
     free(indexList)
